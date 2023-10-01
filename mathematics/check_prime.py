@@ -9,13 +9,6 @@ def check_prime(n):
             return False
     return True
 
-is_prime = check_prime(n)
-print(is_prime)
-
-#efficient approach
-# traverse till square root of n
-# use while loop
-
 def check_prime_eff(n):
     if n== 1:
         return False
@@ -25,3 +18,13 @@ def check_prime_eff(n):
             return False
         i +=1
     return True
+
+is_prime = check_prime(n)
+print(is_prime)
+is_prime = check_prime_eff(n)
+print(is_prime)
+
+#efficient approach
+# traverse till square root of n
+# use while loop
+
