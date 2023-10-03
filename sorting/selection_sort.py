@@ -11,3 +11,8 @@ def selection_sort(data : list):
         # once we get the min_index of the list, we swap
         data[min_index], data[i] = data[i], data[min_index]
         #so in the first loop we get the min of the current list
+l = [10, 5, 8, 20, 2, 18]
+
+selection_sort(l)
+
+print(*l)
