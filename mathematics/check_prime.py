@@ -10,7 +10,7 @@ def check_prime(n):
     return True
 
 def check_prime_eff(n):
-    if n== 1:
+    if n == 1:
         return False
     i = 2
     while ( i * i <= n):
