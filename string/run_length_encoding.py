@@ -13,6 +13,7 @@ def run_length_encoding(string):
         currentRunLength += 1
     
     #after loop finishes the last char remains to be added
+        
     encodedStringChar.append(str(currentRunLength))
     encodedStringChar.append(string[len(string)-1])
 
