@@ -1,3 +1,4 @@
+# O(n) Time
 def isPalindrome(string):
     # Write your code here.
     n = len(string)
