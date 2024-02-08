@@ -1,9 +1,9 @@
 def three_number_sum(array, target_sum):
     array.sort()
     triplets = []
-    for i in range(len(array) - 2):#the last number in the loop should have aleast two other values to assign pointer to, so we iterate only till len -2
-        left = i + 1
-        right = len(array) - 1
+    for i in range(len(array) - 2):#the last number in the loop should have aleast two other values to assign left and right pointer to, so we iterate only till len -2
+        left = i + 1 #next element
+        right = len(array) - 1 #last element
         while left < right:#while pointers are not overlapping or passing each other
             currentSum = array[i]+array[left]+array[right]
             if currentSum == target_sum:
