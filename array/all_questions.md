@@ -5,4 +5,6 @@
 - Check if array is sorted
 - Reverse an array
 - Second closest in an array
+- maximum diff in an array
+- 
 
