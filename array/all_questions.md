@@ -1,6 +1,8 @@
-largest element in array
-second largest element in array
-check if array is sorted
-reverse an array
-second closest in an array
+# Array — All Questions
+
+- Largest element in array
+- Second largest element in array
+- Check if array is sorted
+- Reverse an array
+- Second closest in an array
 
