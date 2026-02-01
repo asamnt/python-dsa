@@ -6,5 +6,7 @@
 - Reverse an array
 - Second closest in an array
 - maximum diff in an array
+- stock buy and sell
+- trap rain water
 - 
 
